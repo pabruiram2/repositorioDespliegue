@@ -76,7 +76,7 @@ public class Calculadora {
      * @return El resultado de base elevado a exponente.
      */
     public float calcularPotencia(float base, float exponente) {
-        float resultado = 2;
+        float resultado = 1;
         for (int i = 0; i < exponente; i++) {
             resultado = multiplicar(resultado, base);
         }
