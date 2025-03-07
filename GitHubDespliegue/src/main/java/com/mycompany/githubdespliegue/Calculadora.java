@@ -28,7 +28,7 @@ public class Calculadora {
      * @return La suma de a y b.
      */
     public static float sumar(float a, float b) {
-        return a + b;
+        return a + b +2;
     }
 
     /**
